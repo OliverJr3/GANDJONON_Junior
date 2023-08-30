@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formation</title>
+</head>
+<body>
+    <style>
+        * {
+  margin: 0;
+  padding: 0;
+  background-color: #000;
+  font-family: poppins, sans-serif;
+}
+
+.main-nav {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  margin: 0;
+  padding: 0;
+  width: 800px;
+  height: 350px;
+}
+
+.main-nav li {
+  list-style: none;
+  position: absolute;
+  width: 300px;
+  height: 300px;
+  background: #000;
+  transform: rotate(45deg);
+  transition: 0.5s;
+  margin: -100px;
+  overflow: hidden;
+  opacity: 0.5;
+}
+
+.main-nav li:hover {
+  opacity: 1;
+}
+
+.main-nav li.item1 {
+  top: 0;
+  left: 0;
+}
+
+.main-nav li.item2 {
+  bottom: 0;
+  left: 25%;
+}
+
+.main-nav li.item3 {
+  top: 0;
+  left: 50%;
+}
+
+.main-nav li.item4 {
+  bottom: 0;
+  left: 75%;
+}
+
+.main-nav li.item5 {
+  top: 0;
+  left: 100%;
+}
+
+.main-nav li .bg {
+  width: 100%;
+  height: 100%;
+  transform: scale(1.1);
+}
+
+.main-nav li.item1 .bg {
+  background: url(https://th.bing.com/th/id/R.df2e2d26ab46ce0fe687aacb47586a38?rik=AlL%2bUnPJwcBoyw&riu=http%3a%2f%2fholiday-study.tn%2fwp-content%2fuploads%2f2019%2f01%2f1088486631.jpg&ehk=i%2bpxfqVcSAJczLMkX2xC15CqbAnkELpL1mznZOpKmnA%3d&risl=&pid=ImgRaw&r=0);
+  background-size: cover;
+  background-position: center;
+}
+
+.main-nav li.item2 .bg {
+  background: url(https://th.bing.com/th/id/OIP.XYtFlBWaLbzTwNnE-4xpGQHaD-?pid=ImgDet&rs=1);
+  background-size: cover;
+  background-position: center;
+}
+
+.main-nav li.item3 .bg {
+  background: url(https://th.bing.com/th/id/R.7c7c222983dcf369e9d18695adf59d8f?rik=rGsspbmLVWisrA&riu=http%3a%2f%2fwww.juventudearte.org.br%2fimg%2frj%2frj1.jpg&ehk=xdnTnjbMpMdt9o8rUu1KC1seOKR6fPzft6BpGnMkUzc%3d&risl=&pid=ImgRaw&r=0);
+  background-size: cover;
+  background-position: center;
+}
+
+.main-nav li.item4 .bg {
+  background: url(https://th.bing.com/th/id/OIP.FsCizsGKIqTZf7SkA7eQ5wHaEM?pid=ImgDet&rs=1);
+  background-size: cover;
+  background-position: center;
+}
+
+.main-nav li.item5 .bg {
+  background: url(https://th.bing.com/th/id/R.67b56c3e9b5dba1ce866d724a1da4768?rik=pY7CpxD1IngmAA&pid=ImgRaw&r=0);
+  background-size: cover;
+  background-position: center;
+}
+
+    </style>
+    <div>
+        <ul class="main-nav">
+            <li class="item1">
+              <div class="bg"></div>
+            </li>
+            <li class="item2">
+              <div class="bg"></div>
+            </li>
+            <li class="item3">
+              <div class="bg"></div>
+            </li>
+            <li class="item4">
+              <div class="bg"></div>
+            </li>
+            <li class="item5">
+              <div class="bg"></div>
+            </li>
+          </ul>
+    </div>
+</body>
+</html>
